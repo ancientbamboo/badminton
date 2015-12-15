@@ -30,6 +30,51 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- servlet api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!-- json tools -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+		
+		<!-- apache commons -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		
+		<!-- spring rest dependency library -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.6.4</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>badminton-rest</finalName>
